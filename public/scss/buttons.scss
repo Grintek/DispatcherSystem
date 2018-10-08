@@ -1,0 +1,23 @@
+.DashboardButton {
+  margin: 5px;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  padding: 3px;
+  color: white;
+  display: inline-block;
+  background-color: #2a88bd;
+  border-radius: 2px;
+
+}
+.DashboardButton:hover {
+  cursor: pointer;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #2da7e3;
+}

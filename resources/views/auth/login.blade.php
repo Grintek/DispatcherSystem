@@ -7,6 +7,10 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Вход в личный кабинет</div>
                 <div class="panel-body">
+                   <p> <?php
+                    $as = "qwerty";
+                    echo password_hash($as, PASSWORD_DEFAULT);
+                       ?></p>
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
